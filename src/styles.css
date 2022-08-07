@@ -1,0 +1,53 @@
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.heading > span {
+  color: red;
+}
+
+.enterValue {
+  padding: 10px;
+  border: 1px solid #79797990;
+  width: 250px;
+  border-radius: 6px;
+  margin: 0px 10px;
+}
+
+.enterValue::placeholder {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  transition: 0.5s ease-out;
+}
+
+.content {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+@media (max-width: 675px) {
+  .enterValue {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .content {
+    font-size: 13px;
+  }
+}
